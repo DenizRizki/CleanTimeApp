@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Clean Time - Customer Portal Mobile App 📱✨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Clean Time Mobile** adalah aplikasi client-side (Customer Portal) yang dirancang khusus untuk pelanggan laundry premium. Aplikasi ini dibangun menggunakan **React Native** dengan **Expo Ecosystem** dan **TypeScript** untuk memberikan pengalaman pengguna yang cepat, responsif, dan estetik saat memantau maupun mengelola orderan laundry.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Fitur Unggulan Aplikasi
 
-   ```bash
-   npm install
-   ```
+Aplikasi mobile ini dilengkapi dengan berbagai fitur antarmuka modern:
 
-2. Start the app
+* **Desain Antarmuka Premium (UI/UX):** Layout bersih dengan sentuhan ornamen latar belakang abstrak, kartu form yang melayang (*floating card*), serta branding logo huruf "C" eksklusif bertema siber-laundry.
+* **Fitur Show/Hide Password:** Keamanan ekstra yang interaktif, memungkinkan pengguna menyembunyikan atau menampilkan input kata sandi hanya dengan satu ketukan ikon mata.
+* **Penyimpanan Kredensial Aman (Secure Authentication):** Menggunakan `Expo SecureStore` berbasis enkripsi perangkat keras untuk menyimpan token akses (`user_token`) dan nama pengguna secara permanen, sehingga pengguna tidak perlu login berulang kali.
+* **Manajemen Input Pintar:** Dilengkapi dengan komponen `KeyboardAvoidingView` dan `ScrollView` yang fleksibel untuk memastikan form tidak tertutup oleh keyboard virtual, baik di perangkat Android maupun iOS.
+* **Integrasi API Axios Dinamis:** Manajemen request tersentralisasi untuk berkomunikasi secara langsung dengan server backend Laravel.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack & Library
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Spesifikasi teknologi yang digunakan pada sisi aplikasi mobile:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Komponen | Teknologi / Library |
+| :--- | :--- |
+| **Framework Utama** | React Native (Expo SDK) |
+| **Bahasa Pemrograman**| TypeScript (Strongly Typed) |
+| **Sistem Navigasi** | Expo Router (File-based Routing) |
+| **Penyimpanan Lokal** | Expo Secure Store (Encrypted Storage) |
+| **Resource Icon** | @expo/vector-icons (Ionicons) |
+| **HTTP Client** | Axios |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚙️ Langkah Instalasi & Menjalankan Aplikasi
 
+Pastikan Anda sudah menginstal **Node.js** di komputer Anda sebelum mengikuti langkah-langkah di bawah ini:
+
+### 1. Kloning Repositori App
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone [https://github.com/username/clean-time-app.git](https://github.com/username/clean-time-app.git)
+cd clean-time-app
